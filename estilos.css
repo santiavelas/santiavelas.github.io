@@ -16,7 +16,7 @@ h1 {
 }
 
 .portada {
-    width: 110%;
+    width: 100%;
     background: #FF6B85;
     min-height: 100vh;
     position: fixed;
@@ -76,7 +76,7 @@ main {
 .simply-amount {
     display: block;
     font-size: 2.5rem;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .simply-word {
