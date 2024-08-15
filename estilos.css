@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #E06BFF;
+    color: #fd2e2e;
+    font-family: 'Work Sans', ;
+}
+
+h1 {
+    color: transparent;
+    text-shadow: -1px -1px #ffffff;
+}
+
+.portada {
+    width: 100%;
+    background: #FF6B85;
+    min-height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: .5s ease-out all;
+}
+
+.portada.oculta {
+    transform: translateY(100%);
+}
+
+.portada .header {
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.portada .header h1 {
+    font-size: 3rem;
+}
+
+main {
+    max-width: 100%;
+    margin: auto;
+    width: 90%;
+    padding: 60px 0;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+}
+
+#cuenta {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+	flex-direction: column;
+}
+
+.simply-section {
+    background: #ffffff;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.simply-amount {
+    display: block;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.simply-word {
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 2rem;
+    text-shadow: 0 0 5px #ffffff;
+}
+
+/* Media Queries */
+@media (max-width: 800px) {
+    .portada .header h1 {
+        font-size: 2.5rem;
+    }
+    
+    .simply-section {
+        width: 120px;
+        height: 120px;
+    }
+
+    .simply-amount {
+        font-size: 2rem;
+    }
+
+    .simply-word {
+        font-size: 1.2rem;
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 200px) {
+    .portada .header h1 {
+        font-size: 2rem;
+    }
+    
+    .simply-section {
+        width: 100px;
+        height: 100px;
+    }
+
+    .simply-amount {
+        font-size: 1.5rem;
+    }
+
+    .simply-word {
+        font-size: 1rem;
+    }
+
+    p {
+        font-size: 1.2rem;
+        
+    }
+}
