@@ -12,7 +12,7 @@ body {
 E06BFF
 h1 {
     color: transparent;
-    text-shadow: -1px -1px #ffffff;
+    text-shadow: 1px 1px #ffffff;
 }
 
 .portada {
