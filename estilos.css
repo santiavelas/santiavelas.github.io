@@ -40,14 +40,14 @@ h1 {
     letter-spacing: 3px;
 }
 
-.portada .header {
+.portada .header h1 {
     font-size: 3rem;
 }
 
 main {
     max-width: 100%;
     margin: auto;
-    width: 100%;
+    width: 90%;
     padding: 60px 0;
     font-size: 18px;
     line-height: 28px;
@@ -75,12 +75,14 @@ main {
 .simply-amount {
     display: block;
     font-size: 2.5rem;
-    font-weight: 500;
+    font-weight: 700;
+    color: #fd2e2e
 }
 
 .simply-word {
     font-weight: 300;
     font-size: 1.5rem;
+    color: #fd2e2e
 }
 
 p {
