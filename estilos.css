@@ -5,7 +5,7 @@
 }
 
 body {
-    background: #ffffff; 
+    background: #FF6B85; 
     color: #fe85ae;
     font-family: 'Work Sans', ;
 }
@@ -16,7 +16,7 @@ h1 {
 
 .portada {
     width: 110%;
-    background: #ffffff;
+    background: #FF6B85;
     min-height: 100vh;
     position: fixed;
     top: 0;
